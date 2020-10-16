@@ -73,8 +73,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 @font-face {
-  font-family: Cuprum;
-  src: url("cuprum.woff2") format("woff2"), url("../fonts/cuprum.woff") format("woff");
+  font-family: "Cuprum";
+  src: url("/fonts/cuprum.woff2") format("woff2"), url("/fonts/cuprum.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: flex-end;
   padding: 11px 15px 10px 10px;
   white-space: nowrap;
-  font-family: Cuprum;
+  font-family: "Cuprum";
   font-size: 18px;
   color: #e7b219;
 }
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 7px 0px 5px 5px;
 }
 .menu__link {
-  font-family: Cuprum;
+  font-family: "Cuprum";
   font-weight: 500;
   color: #000;
   font-size: 17px;
