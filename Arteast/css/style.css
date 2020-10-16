@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__contacts {
   text-align: right;
   padding: 1px 0px;
-  background: url('img/call_bg.png') top right/185px 100% no-repeat;
+  background: url('/img/call_bg.png') top right/185px 100% no-repeat;
   z-index: 1;
 }
 .header__contacts a {
