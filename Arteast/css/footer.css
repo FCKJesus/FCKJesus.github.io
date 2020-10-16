@@ -1,0 +1,15 @@
+.footer__main {
+  background: #000;
+}
+.footer__text {
+  display: flex;
+  margin-bottom: 30px;
+}
+.footer__adress p {
+  font-family: "Cuprum";
+  font-size: 17px;
+}
+.footer__copyright p {
+  font-family: "Cuprum";
+  font-size: 17px;
+}
