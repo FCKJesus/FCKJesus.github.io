@@ -73,14 +73,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 @font-face {
-  font-family: "Cuprum";
-  src: local("Cuprum"), local("Cuprum-Regular"), url("cuprum.woff2") format("woff2"), url("fonts/cuprum.woff") format("woff"), url("fonts/cuprum.ttf") format("truetype");
+  font-family: Cuprum;
+  src: url("cuprum.woff2") format("woff2"), url("../fonts/cuprum.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "Cuprum";
-  src: local("Cuprum Bold"), local("Cuprum-Bold"), url("cuprumbold.woff2") format("woff2"), url("fonts/cuprumbold.woff") format("woff"), url("fonts/cuprumbold.ttf") format("truetype");
+  font-family: Cuprum;
+  src: url("cuprumbold.woff2") format("woff2"), url("../fonts/cuprumbold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
