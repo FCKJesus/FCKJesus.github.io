@@ -74,13 +74,13 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 @font-face {
   font-family: "Cuprum";
-  src: local("Cuprum"), local("Cuprum-Regular"), url("cuprum.woff2") format("woff2"), url("/fonts/cuprum.woff") format("woff"), url("/fonts/cuprum.ttf") format("truetype");
+  src: local("Cuprum"), local("Cuprum-Regular"), url("cuprum.woff2") format("woff2"), url("fonts/cuprum.woff") format("woff"), url("fonts/cuprum.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Cuprum";
-  src: local("Cuprum Bold"), local("Cuprum-Bold"), url("cuprumbold.woff2") format("woff2"), url("/fonts/cuprumbold.woff") format("woff"), url("/fonts/cuprumbold.ttf") format("truetype");
+  src: local("Cuprum Bold"), local("Cuprum-Bold"), url("cuprumbold.woff2") format("woff2"), url("fonts/cuprumbold.woff") format("woff"), url("fonts/cuprumbold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
@@ -313,11 +313,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 17px;
 }
 .form__input:first-child {
-  background: url(../img/name.png) no-repeat;
+  background: url('img/name.png') no-repeat;
   background-position: 0 50%;
 }
 .form__input:last-child {
-  background: url(../img/call.png) no-repeat;
+  background: url('img/call.png') no-repeat;
   background-position: 0 50%;
 }
 .form__button {
@@ -421,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .numeral {
-  background: url(../img/Layer 4.png) no-repeat;
+  background: url('img/Layer 4.png') no-repeat;
   background-size: cover;
   background-position: 50% 0;
 }
@@ -539,7 +539,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .secondmain {
-  background: url(../img/secbg.png);
+  background: url('img/secbg.png');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
