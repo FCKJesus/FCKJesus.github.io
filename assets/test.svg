@@ -3,7 +3,9 @@
 <style type="text/css">
 
 <![CDATA[
-
+	svg {
+	    background: #0d1117;
+	  }
 	text {
 		filter: url(#filter);
 		fill: white;
