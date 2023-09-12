@@ -1,0 +1,8 @@
+<svg width="20">
+  <rect fill="#fc0"
+    width="20"
+    height="20"/>
+  <line stroke="black"
+    x1="0" y1="0"
+    x2="20" y2="20"/>
+</svg>
